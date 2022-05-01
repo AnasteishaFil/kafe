@@ -204,7 +204,7 @@ footer{
 .menu__box {
   display: block;
   position: fixed;
-  z-index: 1;
+  z-index: 7;
   top: 0;
   right: -65vw;
   width: 60vw;
@@ -229,11 +229,10 @@ footer{
   
 }
 .logo_burger{
-  background-image: url(/page/new.png);
-  height: 45vh;
+  width: 135%;
   position: absolute;
-  bottom: 3vh;
-  right: -5vw;
+  bottom: 5vh;
+  right: -40%;
 
 }
 .menu-button:hover{
@@ -382,7 +381,7 @@ section{
   border-radius: 30px;
 }
 
-.sliderrr input[name='slide_switch'] {
+.sliderrr input[name='photo_change'] {
 	display: none;
 }
 
@@ -395,21 +394,21 @@ section{
 	display: block;
   width: 95%;
   margin: 0 auto;
-  border: 3px solid #999;
+  border: 3px solid #888;
   border-radius: 10px;
   transition: all 0.5s;
 	opacity: 0.6;
 }
 
-.sliderrr input[name='slide_switch']:checked+label img {
+.sliderrr input[name='photo_change']:checked+label img {
   border: 3px solid #FFE39D;
   opacity: 1;
 }
-.sliderrr input[name='slide_switch'] ~ img {
+.sliderrr input[name='photo_change'] ~ img {
 	opacity: 0;
-	transform: scale(1.05);
+	transform: scale(0.95);
 }
-.sliderrr input[name='slide_switch']:checked+label+img {
+.sliderrr input[name='photo_change']:checked+label+img {
 	opacity: 1;
 	transform: scale(1);
 }
