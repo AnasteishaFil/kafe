@@ -359,7 +359,7 @@ section{
   justify-content: space-between;
 }
 .gallery{
-  width: 31.5%;
+  width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -368,9 +368,9 @@ section{
 .sliderrr{
   width: 100%;
 	position: relative;
-	padding-top: 104%; 
+	padding-top: 105%; 
 	display: flex;
-	justify-content: space-between;
+  align-items: center;
 }
 
 .sliderrr>img{
@@ -394,6 +394,7 @@ section{
 .sliderrr label img{
 	display: block;
   width: 95%;
+  margin: 0 auto;
   border: 3px solid #999;
   border-radius: 10px;
   transition: all 0.5s;
@@ -413,7 +414,7 @@ section{
 	transform: scale(1);
 }
 .information{
-  width: 67%;
+  width: 74%;
   border-radius: 30px;
   display: flex;
   justify-content: space-between;
@@ -445,7 +446,7 @@ h2{
   align-items: center;
 }
 .column_slide1{
-  width: 45%;
+  width: 40%;
   height: 80%;
   display: flex;
   flex-direction: column;
@@ -457,7 +458,7 @@ h2{
   align-items: center;
 }
 .column_slide2{
-  width: 45%;
+  width: 50%;
   display: flex;
   align-items: center;
 }
@@ -536,6 +537,7 @@ h4{
   margin: 1vh 2vh 1vh auto;
   background: url('page/вверх.png') no-repeat;
   background-size: 100% 100%;
+  display: none;
 }
 
 @media (min-width: 1600px) {
@@ -662,6 +664,12 @@ h4{
   .chel{
     margin: 1vh 0 2vh 0;
   }
+  #toTop{
+    display: block;
+  }
+  .stars{
+    width: 30%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -699,6 +707,9 @@ h4{
   }
   #toTop{
     margin: 1vh 1vh 1vh auto;
+  }
+  .stars{
+    width: 40%;
   }
 }
 
